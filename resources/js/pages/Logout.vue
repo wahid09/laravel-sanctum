@@ -14,7 +14,7 @@ export default {
         function logout() {
             //localStorage.removeItem('token');
             userStore.removeToken('token')
-            router.push({ name: 'Home' })
+            router.push({ name: 'Login' })
         }
         return {
             logout

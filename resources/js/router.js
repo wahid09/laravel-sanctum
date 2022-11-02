@@ -7,12 +7,12 @@ import logout from './pages/Logout.vue';
 
 const routes = [
     {
-        path: '/',
+        path: '/home',
         name: 'Home',
         component: home
     },
     {
-        path: '/login',
+        path: '/',
         name: 'Login',
         component: login,
         meta: { requiresAuth: false }
